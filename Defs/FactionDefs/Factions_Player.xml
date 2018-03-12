@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="PlayerFactionBase">
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+    <FactionDef ParentName="PlayerFactionBase">
+    <defName>PlayerTribeDontKnow</defName>
+    <label>New Tribe that know nothing</label>
+    <description>Your own tribe. No starting knowledge</description>
+    <isPlayer>true</isPlayer>
+    <pawnsPlural>tribespeople</pawnsPlural>
+    <basicMemberKind>Tribesperson</basicMemberKind>
+		<techLevel>Neolithic</techLevel>
+		<backstoryCategory>Tribal</backstoryCategory>
+		<expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
+		<homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
+		<pawnNameMaker>NamerPersonTribal</pawnNameMaker>
+		<baseNameMaker>NamerFactionBasePlayerTribe</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionTribal</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBaseTribal</factionNameMakerPlayer>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+      <li>TribalStartNone</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <recipePrerequisiteTags>
+      <li>Tribal</li>
+    </recipePrerequisiteTags>
+    </FactionDef>
+	
+
+</Defs>

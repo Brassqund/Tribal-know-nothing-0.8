@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Tribal know nothing</name>
+	<author>Brassqund</author>
+	<targetVersion>0.18.1722</targetVersion>
+	<description>Add a new starting scenario with tribal that know no researches.
+Normal tribal can be still played by selecting the normal tribal scenario.</description>
+</ModMetaData>
